@@ -1,6 +1,6 @@
 '''
-Converts a base10 number to one or more base16 "digits"
-A "digit" being a number in base10 that should be interpreted in base16
+Converts a base10 number to one or more "digits" of any number base system
+A "digit" being a number in base10 that should be interpreted in the base system of your choice(16 by default)
 '''
 
 #########################
