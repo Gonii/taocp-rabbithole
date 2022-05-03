@@ -33,31 +33,3 @@ _start:
 	MOV eax,1		; Code for Exit Syscall
 	mov ebx,0		; Return a code of zero	
 	int 80H			; Make kernel call
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
