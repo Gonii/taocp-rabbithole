@@ -1,0 +1,9 @@
+services:
+    reverseproxy:
+        container_name: test
+        image: nginx
+        ports:
+            - 80:80            
+        restart: always
+        volumes:
+          - ${PWD}/html/:/usr/share/nginx/html/
